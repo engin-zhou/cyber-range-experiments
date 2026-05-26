@@ -1,0 +1,44 @@
+{
+  "web": [
+    {
+      "step": 1,
+      "p_opt": 0.2631578947368421,
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "step": 2,
+      "p_opt": 0.20512820512820512,
+      "rank": 2,
+      "correct": false
+    },
+    {
+      "step": 3,
+      "p_opt": 0.23255813953488372,
+      "rank": 1,
+      "correct": true
+    }
+  ],
+  "pwn": [
+    {
+      "step": 1,
+      "p_opt": 0.2903225806451613,
+      "rank": 2,
+      "correct": false
+    },
+    {
+      "step": 2,
+      "p_opt": 0.2702702702702703,
+      "rank": 1,
+      "correct": true
+    },
+    {
+      "step": 3,
+      "p_opt": 0.2647058823529412,
+      "rank": 1,
+      "correct": true
+    }
+  ],
+  "transfer_ratio": 1.1775779650768063,
+  "tau": 0.6
+}

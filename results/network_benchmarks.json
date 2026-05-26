@@ -1,0 +1,32 @@
+{
+  "latency_attacker_web": {
+    "mean_rtt_ms": -1,
+    "error": "no data"
+  },
+  "latency_attacker_db": {
+    "mean_rtt_ms": -1,
+    "error": "no data"
+  },
+  "throughput_attacker_web": {
+    "mean_mbps": 17.8548264,
+    "std_mbps": 3.2796042102347993,
+    "max_mbps": 22.948387,
+    "n": 10
+  },
+  "iperf_attacker_web": {
+    "mean_mbps": -1,
+    "error": "iperf3 failed or not available"
+  },
+  "cross_scenario_isolation": {
+    "hosts_up": 1,
+    "isolated": false
+  },
+  "bandwidth_alone": {
+    "mean_mbps": 17.3585296,
+    "n": 5
+  },
+  "bandwidth_concurrent": {
+    "mean_mbps": -1,
+    "n": 0
+  }
+}

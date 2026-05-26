@@ -1,0 +1,17 @@
+{
+  "LLM-TS": {
+    "rate": 0.0,
+    "se": 0.0,
+    "successes": 0
+  },
+  "Uniform-TS": {
+    "rate": 0.0,
+    "se": 0.0,
+    "successes": 0
+  },
+  "LLM-Greedy": {
+    "rate": 0.0,
+    "se": 0.0,
+    "successes": 0
+  }
+}
