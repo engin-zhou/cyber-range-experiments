@@ -1,11 +1,15 @@
-# Cyber Range + LLM Attack Automation — Research Code
+# Cyber Range + LLM-Guided Attack Automation — Experiment Code and Data
 
-This repository contains experiment code and data for:
+Research code repository accompanying the paper *"A Cyber Range Platform with Principled LLM-Guided Attack Automation: Theory, Implementation, and Experiments"* (submitted).
 
-## Paper 1: Information-Theoretic Bounds for LLM-Guided Tree Search
-Submitted to *IEEE Access*, 2026. See `paper1-theory/`
+## Contents
 
-## Paper 2: A Cyber Range Platform with Principled LLM-Guided Attack Automation
-Submitted to *JISA*, 2026. See `paper2-platform/`
-
-Both papers are companion works by the same research group.
+| Directory/File | Description |
+|---------------|-------------|
+| `exp_*.py` | Experiment scripts |
+| `generate_figures*.py`, `figures_nature.py` | Figure generation |
+| `llm_gateway.py` | LLM Gateway (FastAPI) |
+| `deploy_scenarios.sh` | OVS + Docker deployment |
+| `vuln_service.py` | Custom vulnerable web service |
+| `network_benchmark.py` | Network performance benchmarks |
+| `results/` | All experiment result JSON files |
